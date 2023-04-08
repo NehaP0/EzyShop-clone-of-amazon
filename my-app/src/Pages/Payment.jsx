@@ -17,10 +17,6 @@ import { ChevronDownIcon, ChevronUpIcon } from "@chakra-ui/icons";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import logo from "../images/logo.png";
-
-
-
-// import img from '../logo/Ezyshop.jpeg'
 const Payment = () => {
   const [show, setshow] = useState(false);
   const [showtwo, setshowtwo] = useState(false);
