@@ -202,7 +202,7 @@ const Home = () => {
                             <p>Bags & Luggages</p>
                         </div>
                     </div>
-                    <button className={styles.cardproductbtn}>See More</button>
+                    <button className={styles.cardproductbtn}>See More1</button>
                 </div>
                 <div className={styles.cardproduct}>
                     <h2>Sign in for your best experience</h2>
