@@ -51,7 +51,7 @@ export const getManShirtDataAction =
 export const postShoesDataAction = (obj) => (dispatch) => {
   dispatch({ type: SHIRT_REQUEST_PENDING });
   return axios
-    .post("https://zealous-tuna-singlet.cyclic.app/MenShirt", obj)
+    .post("https://server22-for-amazon-clone.onrender.com/MenShirt", obj)
     .then((res) =>
       dispatch({ type: POST_SHIRT_REQUEST_SUCCESSFUL, payload: res.data })
     )
